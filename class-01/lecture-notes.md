@@ -64,7 +64,7 @@
   - the contextual this is not bound to the function if you use an arrow function, it will bubble up to the next non-arrow function
 
 - React and Component-Based UI
-- https://www.w3schools.com/REACT/DEFAULT.ASP
+  - <https://www.w3schools.com/REACT/DEFAULT.ASP>
   - Why?
     - React is hugely in demand in the industry
     - Component based architecture is easier to test and reuse
