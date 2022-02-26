@@ -4,19 +4,19 @@
 
 - `$ git remote -v`
 
-2. Specify a new remote upstream repository that will be synced with the fork:
+1. Specify a new remote upstream repository that will be synced with the fork:
 
 - `$ git remote add upstream {github url of repo you forked from}`
 
-3. Verify the new upstream repository you've specified for your fork.
+1. Verify the new upstream repository you've specified for your fork.
 
 - `$ git remote -v`
 
-4. Fetch the changes from the upstream remote:
+1. Fetch the changes from the upstream remote:
 
 - `$ git fetch upstream`
 
-5. Pull the changes down from the upstream remote:
+1. Pull the changes down from the upstream remote:
 
 - `$ git pull upstream main`
 
