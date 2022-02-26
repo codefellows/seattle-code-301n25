@@ -23,6 +23,7 @@
       - We take your feedback VERY seriously and discuss it among the instructional staff every single week.
 
 - What's new in 301?
+  - Floor 3 in Remo
   - Warm-ups
     - multiple languages
   - Code Challenges
