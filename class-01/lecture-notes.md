@@ -102,3 +102,6 @@
     - `npm run get-challenge 01`
     - You only need to run this command ONCE to grab all of the Code Challenges for this assignment.
   - Check out the `how-to-solve-a-code-challenge.md` file for tips and tricks on how to break down a code challenge and solve it.
+
+- `Array.forEach()` Demo in Repl.it
+  - <https://replit.com/@HexxKing1/301n25-Code-Challenge-forEach#index.js>
