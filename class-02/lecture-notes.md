@@ -23,7 +23,7 @@
     - https://replit.com/@HexxKing1/301n25-Code-Challenge-map#index.js
   - The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
   - Similar to `array.forEach()`, the `array.map()` method iterates over an array and runs a callback for each element.
-- The difference is that `.map()` will always return you a new array of the same length as the original array, comprised of the return values from each function call.
-  - The original array is never mutated.
-  - You always get back a new array.
-  - Remember, `.forEach` does NOT give us back an array. It returns `undefined` and that is why we have to push the results of each function call into a new, local array.
+  - The difference is that `.map()` will always return you a new array of the same length as the original array, comprised of the return values from each function call.
+    - The original array is never mutated.
+    - You always get back a new array.
+    - Remember, `.forEach` does NOT give us back an array. It returns `undefined` and that is why we have to push the results of each function call into a new, local array.
