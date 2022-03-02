@@ -10,20 +10,60 @@
   - Retros are due the same day they are assigned, no later than 11:59pm(PST).
     - REMEMBER! There are NO late submissions for Retros!
 
-- Code Review
-  - Props is an object, special to React, that allows us to pass data down from parent components via a custom attribute on the child component.
-  - The child component can access that data using `this.props.attributeName` syntax.
-  - Let's talk about how to render an image in React.
-    - Photos can be imported into React components, from your `src` folder, just like any other resource.
-    - You can also use an image's source URL and assign it to the `src` attribute on your img element.
-    - Both ways are valid, but most jobs will have a style guide to follow that will determine which method they prefer.
-
 - Code Challenge Shred Talk: `array.map()`
   - `array.map()` demo in Repl.it
-    - https://replit.com/@HexxKing1/301n25-Code-Challenge-map#index.js
+    - <https://replit.com/@HexxKing1/301n25-Code-Challenge-map#index.js>
   - The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
   - Similar to `array.forEach()`, the `array.map()` method iterates over an array and runs a callback for each element.
   - The difference is that `.map()` will always return you a new array of the same length as the original array, comprised of the return values from each function call.
     - The original array is never mutated.
     - You always get back a new array.
     - Remember, `.forEach` does NOT give us back an array. It returns `undefined` and that is why we have to push the results of each function call into a new, local array.
+
+- React
+  - Props is an object, special to React, that allows us to pass data down from parent components via a custom attribute on the child component.
+  - The child component can access that data using `this.props.attributeName` syntax.
+  - Let's talk about how to render an image in React.
+    - Photos can be imported into React components, from your `src` folder, just like any other resource.
+    - You can also use an image's source URL and assign it to the `src` attribute on your img element.
+    - Both ways are valid, but most jobs will have a style guide to follow that will determine which method they prefer.
+  - State is used as a way of configuring components with properties.
+    - State can keep track of things as other components(or the same component) are changing.
+    - State is a special property we inherit from React.Component.
+    - State is an object, that is a property of the class component it is initalized inside of.
+    - State acts like a global variable, holding a "snapshot" of the data in it's current condition.
+
+- Bootstrap
+  - We want our application to look nice but we don't always know how to accomplish that.
+  - A styling library that allows us to tap into built, styled components.
+  - components just like any other component we would make, but with styling already added
+  - steps:
+    - go to the Bootstrap React web docs
+    - click "Getting Started"
+    - grab installation script from the beginning of the page
+      - run that in the root of your project
+    - see further down on the page where it tells you to `import 'bootstrap/dist/css/bootstrap.min.css';` and add that line to your index.js
+    - then explore the component library to see which components you want to use and figure out how to use them
+    - check out the component's API for additional attributes
+
+- Deployment on Netlify
+  - We want to share our application with the world.
+  - Netlify is a platform that allows us to deploy our React application.
+  - steps:
+    - Navigate to <https://www.netlify.com/>
+    - Click “Sign Up” in the top right corner
+    - Choose GitHub to sign up with
+    - Click on “Add new site”
+    - Choose “Import an existing project”
+    - Click on the GitHub button
+    - You can either “Search repos” OR “Configure Netlify on GitHub”
+    - Enter your GitHub password
+    - Scroll down to Repository access and choose “All repositories”
+    - Click “Save”
+    - Search for your Gallery of Horns repo and click on it
+    - Scroll down and look under the Basic build settings, in the Publish directory input field, add a “/” after the word “build”
+    - Click “Deploy site”
+    - Click on the Deploys tab
+    - Look to the right for the “Trigger deploy” button, click on it and select “Deploy site”
+    - Watch the deploy logs and wait for the success message: “Build script success”
+    - You can either click the “Preview” button at the top OR navigate back to the Site overview tab and click on your green deployed URL link at the top.
