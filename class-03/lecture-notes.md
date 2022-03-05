@@ -16,3 +16,8 @@
   - The callback receives the currentValue and the index of the array element as a parameter.
   - .filter() will always return you a new array, comprised of elements from the original array that match your criteria
     - Think about it this way: which elements in the array match the filter condition?
+
+- passing functions in React
+  - Allows us to do something in a child component that will trigger behavior in the parent component.
+  - Useful for writing a function in the parent that updates state, and passing it as props to the child. The action of changing state still occurs in the parent, even if the child triggers it and/or passes arguments.
+  - This is called "lifting state" in React.
