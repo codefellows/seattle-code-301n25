@@ -33,7 +33,7 @@ export App;
 
 ## header.js
 
-```
+```javascript
 class Header extends React.Component {
   render(){
     <h1>{title}</h1>
