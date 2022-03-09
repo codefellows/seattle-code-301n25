@@ -38,3 +38,23 @@
   - Caveats and Notes
     - The speed and technique of the sort functionality internally is determined by JavaScript, so you can't depend on a consistent "complexity" or "time"
     - compareFunction(a, b) must always return the same value when given a specific pair of elements a and b as its two arguments. If inconsistent results are returned then the sort order is undefined.
+
+- Forms in React
+  - it is the best way to get information from a user (the usual way)
+  - authentication (userName and password)
+  - a way to interact with a user to collect data
+  - we can still use `form` or we can use third-party library component, like bootstrap
+
+- Event Listeners in React
+  - onClick
+    - when someone clicks on an element/component do something
+  - onSubmit
+    - when someone submits a form, remember this is just like a form in js
+    - `event.preventDefault()`
+  - onChange
+    - fires the handler any time a change is made to an input field
+  - Pros vs Cons
+    - onSubmit useful for lots of information
+      - captures the values from the entire form and waits for the user to tell the app it is ready to submit data before capture
+    - onChange captures state for every additonal character in the input
+      - onChange is a little more 'reacty' when the value is being updated by the user we can make that our state and then use the value on input element to reflect the current state
