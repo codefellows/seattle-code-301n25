@@ -1,6 +1,7 @@
 # Class 05 Lecture Notes
 
 - `array.reduce()`
+  - <https://replit.com/@HexxKing1/301n25-Code-Challenge-reduce#index.js>
   - Perhaps the easiest-to-understand case for reduce() is to return the sum of all the elements in an array.
   - The reducer walks through the array element-by-element, at each step adding the current index value to the result from the previous step (this result is the running sum of all the previous steps) — until there are no more elements to add.
   - DOCS:
