@@ -1,5 +1,16 @@
 # Class 05 Lecture Notes
 
+- Feedback Review
+  - "Some days in night course we get extra time when everything is Done and no one has questions, but besides that everything went good."
+  - "CODE REVIEW"
+  - "the powerhour last saturday was sort of a let down. I think it's helpful for 102/201 students but 301 should be attending career development powerhour sessions."
+  - "I found that the partner power hour was helpful solely for the format of the discussion. Directly covering topics related to coding and coding practices is a nice deviation from the previous power hours."
+  - "Code Fellows should host more team building events to build the camaraderie in among the 'Fellows' in virtual campus. For example, 201, 301, 401 mixer."
+  - "I am still learning React..."
+  - "I received a little help from a classmate to point me in the right direction and that was all I needed."
+  - "The only aspect that (I find least helpful) is the readings. I believe this is the case because of my lack of experience. If I had a stronger foundation as far as coding is concerned then I believe the readings would be more beneficial."
+  - If you are the one person who did not fill out their Feedback assignment, you can still get that turned in! Plus, you get an easy grade for completing these!
+
 - `array.reduce()`
   - <https://replit.com/@HexxKing1/301n25-Code-Challenge-reduce#index.js>
   - Perhaps the easiest-to-understand case for reduce() is to return the sum of all the elements in an array.
@@ -7,7 +18,6 @@
   - DOCS:
     - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce>
     - <https://www.w3schools.com/jsref/jsref_reduce.asp>
-
   - INPUTS:
     - A “reducer” function that takes four arguments:
       - previousValue AKA accumulator (the value resulting from the previous call to callbackfn)
