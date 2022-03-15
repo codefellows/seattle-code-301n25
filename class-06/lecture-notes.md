@@ -1,6 +1,7 @@
 # Class 10 Lecture Notes
 
 - Value vs Reference
+  - Demo: <https://replit.com/@HexxKing1/301n25-Code-Challenge-Value-vs-Reference#index.js>
   - Docs and helpful resources:
     - <https://hackernoon.com/grasp-by-value-and-by-reference-in-javascript-7ed75efa1293>
     - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures>
