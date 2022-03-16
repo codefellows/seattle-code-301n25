@@ -7,7 +7,6 @@
     - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures>
     - <https://www.w3schools.com/js/js_object_definition.asp>
     - <https://developer.mozilla.org/en-US/docs/Glossary/Primitive>
-
   - Pass by Reference
     - the location reference is transferred to the new variable; efficient; one-step process
     - assigning one variable to another would give us 2 different ways to access or change the same value
@@ -24,3 +23,41 @@
   - Primitive types: booleans, numbers, strings, and a few others...
   - Objects: Arrays, functions, and of course object literals, and a few others ...
   - Primitive types are always passed by value, and Object types are always passed by reference.
+
+- APIs & async/await
+  - What is "API" an acronym for?
+    - Application Programming Interface
+  - What is an API?
+    - It allows two applications to communicate with one another to access data.
+    - An API is essentially a messenger that takes requests, translates, and returns responses.
+  - What is an API key and why do you need it?
+    - An API key is a unique identifier used to authenticate a user, developer, or calling program to an API
+    - It is used to track number of requests made by a particular app to avoid Denial of Service attack and also for premium features. eg: only 500 calls per day for free account and to make more calls you have to subscribe to their premium account.
+    - API Key is included in headers or URL of the request
+  - What do developers use to access APIs?
+    - HTTP Methods
+  - What are HTTP methods?
+    - GET: requests data from a server
+    - POST: sends new information to a server
+    - PUT: makes changes to existing data on a server
+    - DELETE: removes existing information from a server
+    - PATCH: used for partial updates
+    - There are more methods than these 5, but these are the most popular
+  - What is asynchronous code?
+    - You don't know how long the API will take to respond, so when the script runs the next line it will throw an error because the response is not yet available.
+    - Instead, you need your code to wait until the response is returned before it tries to do anything else to it.
+    - many Web API features now use asynchronous code to run, especially those that access or fetch some kind of resource from an external device, such as fetching a file from the network, accessing a database and returning data from it, accessing a video stream from a web cam, or broadcasting the display to a VR headset.
+  - What is synchronous code?
+    - The script runs some code, the lines are executed one after the other and the result is returned as soon as the browser can do so
+    - While each operation is being processed, nothing else can happen — rendering is paused.
+    - This is because JavaScript is single threaded.
+    - Only one thing can happen at a time, on a single main thread, and everything else is blocked until an operation completes.
+  - What is Thunderclient?
+    - Resource: <https://www.thunderclient.io/>
+    - According to their docs: Hand-crafted lightweight Rest Client for Testing APIs
+    - alternative to Postman
+  - What is Axios?
+    - Resource: <https://axios-http.com/docs/intro>
+    - This is our "carrier pigeon" that carries our request to the server/API.
+    - According to their docs: Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
+    - Features: Make XMLHttpRequests from the browser; Make http requests from node.js; Supports the Promise API; Intercept request and response; Transform request and response data; Cancel requests; Automatic transforms for JSON data; Client side support for protecting against XSRF
