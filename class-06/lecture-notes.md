@@ -62,3 +62,11 @@
     - This is our "carrier pigeon" that carries our request to the server/API.
     - According to their docs: Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
     - Features: Make XMLHttpRequests from the browser; Make http requests from node.js; Supports the Promise API; Intercept request and response; Transform request and response data; Cancel requests; Automatic transforms for JSON data; Client side support for protecting against XSRF
+- Deploying to Netlify
+  - Add your deployed Netlify app url as an HTTP Referrer to your API token settings. This step is necessary to prevent any unauthorized use of your token. Also add `localhost` while testing from your development environment.
+    - Make sure you add `http://localhost:3000/` as a referrer. The slash at the end is super important or it won't work.
+    - If your React app is running on a different port, you will need to add that port as well.
+  - Add your API key to your Netlify deployment. Under "Site settings" > "Build & deploy" > "Environment", you need to add "Edit variables" to add your API key, giving it the same name you used in your local .env file.
+    - Remember, "env" is just short for "enviroment". These are your enviroment variables.
+  - If you haven't already gotten all your API keys for City Explorer, check out the reading for class-07.
+    - You will need a WeatherBit API key for lab 08!
