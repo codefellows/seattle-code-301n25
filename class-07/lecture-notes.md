@@ -1,0 +1,59 @@
+# Class 07 Lecture Notes
+
+- String & Array Methods
+  - Repl.it Demo: <https://replit.com/@HexxKing1/301n25-Code-Challenge-String-and-Array-Methods#index.js>
+  - Introducing `slice()`, `splice()`, `split()` and `join()`
+  - STRING.SPLIT(): splits a string into an array of substrings, and returns the new array.
+    - DOCS:
+      - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split>
+      - <https://www.w3schools.com/jsref/jsref_split.asp>
+    - INPUT:
+      - separator(Optional): specifies the character where the string will be split
+      - limit(Optional): limits the number of split items included in the returned array
+    - OUTPUT:
+      - An Array of strings, split at each point where the separator occurs in the given string.
+    - KEY POINTS:
+      - The separator characters are removed as the string is being "split".
+      - The original string is not modified.
+  - ARRAY.JOIN(): will iterate through an array and create a new string by concatenating the value of each element in the array with the character that you specify.
+    - DOCS:
+      - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join>
+      - <https://www.w3schools.com/jsref/jsref_join.asp>
+    - INPUT:
+      - separator(Optional): specifies the character where the array elements will be joined. If omitted, the elements are separated with a comma
+    - OUTPUT:
+      - The string conversions of all array elements are joined into one string.
+    - KEY POINTS:
+      - If an element is undefined, null or an empty array, it is converted to an empty string.
+      - Given no separator, join() will insert commas.
+      - The original array is not modified
+  - ARRAY.SLICE(): method returns selected elements in an array, as a new array.
+    - DOCS:
+      - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/SLICE>
+      - <https://www.w3schools.com/jsref/jsref_SLICE.asp>
+    - INPUT:
+      - start(Optional): index at which to start slicing.
+      - end(Optional): index before which to end the slice.
+    - OUTPUT:
+      - A new array containing the sliced elements.
+    - KEY POINTS:
+      - A negative index can be used as either input. Positive indexes start at the front of the array, negatives start at the end of the array.
+      - If start is undefined, slice starts from the index 0.
+      - If end is omitted, slice extracts through the end of the sequence (arr.length).
+      - Slice does not alter the original array.
+      - NOTE! There is a slice method for both arrays and strings.
+  - ARRAY.SPLICE(): changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+    - DOCS:
+      - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice>
+      - <https://www.w3schools.com/jsref/jsref_SPLICE.asp>
+    - INPUT:
+      - start: index at which to start changing the array.
+      - deleteCount(Optional): the number of elements in the array to remove from start.
+      - itemsToBeAdded(Optional): The elements to add to the array, beginning from start.
+    - OUTPUT:
+      - An array containing the deleted elements.
+      - If only one element is removed, an array of one element is returned.
+      - If no elements are removed, an empty array is returned.
+  - KEY POINTS:
+    - splice() overwrites the original array.
+    - returns an array containing the deleted elements.

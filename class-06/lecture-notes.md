@@ -1,4 +1,4 @@
-# Class 10 Lecture Notes
+# Class 06 Lecture Notes
 
 - Value vs Reference
   - Demo: <https://replit.com/@HexxKing1/301n25-Code-Challenge-Value-vs-Reference#index.js>
