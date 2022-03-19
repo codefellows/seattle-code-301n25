@@ -1,5 +1,14 @@
 # Class 07 Lecture Notes
 
+- Feedback Overview
+  - "Code challenges, they are great to get the brain going on the subjects were woking. Sometimes when doing a project you can only go back to the code and look the project itself, but going back to the code challenges allow you to see different way's you solves it using .map, .filter etc...."
+  - "The code reviews have been helpful"
+  - "Code Fellows should host public mock interviews and live public code challenges on a weekly basis."
+  - "I still am unfamiliar with much of react"
+  - "I found that pair programming and going to other classmates was a very helpful method of making it through some of the material."
+  - "I have not enjoyed the portfolio, partially because I don't think portfolios should be made from template, but moreover because I don't like the template that much."
+  - Hexx doesn't call on some peope as much as they do others.
+
 - String & Array Methods
   - Repl.it Demo: <https://replit.com/@HexxKing1/301n25-Code-Challenge-String-and-Array-Methods#index.js>
   - Introducing `slice()`, `splice()`, `split()` and `join()`
