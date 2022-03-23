@@ -1,5 +1,61 @@
 # Class 08 Lecture Notes
 
+- REST
+  - By using APIs in creative ways, you can make really interesting apps, but leave the data management to the experts.
+  - REST give us a common language and set of methods to access all of it, with WRRC.
+  - API's follow a very similar set of rules -- REST.
+    - With HTTP, you can GET, POST, PUT, PATCH, DELETE
+    - With Data, you can Create, Read, Update, or Delete
+    - With REST
+      - You Create using POST
+      - You Update using PUT or PATCH
+      - You Delete using DELETE
+      - You Read using GET
+  - REST stands for REpresentational State Transfer.
+  - It means when a RESTful API is called, the server will transfer to the client a representation of the state of the requested resource.
+  - The representation of the state can be in a JSON format, and probably for most APIs this is indeed the case.
+  - In order for your APIs to be RESTful, you have to follow a set of constraints when you write them.
+  - The REST set of constraints will make your APIs easier to use and also easier to discover.
+  - Resource: <https://medium.com/extend/what-is-rest-a-simple-explanation-for-beginners-part-1-introduction-b4a072f8740f>
+
+- Nodemon aka "No Demon"
+  - Runs your server and restarts it for you when you make changes
+    - the only exception is if you make a change to your `.env` file!
+  - Install it: `npm install --save-dev nodemon`
+    - `--save-dev` is just saving nodemon as a developer dependencies and not as a app dependency
+    - you can see it in package lock, its under a different object
+  - Start your server: `npx nodemon server.js`
+
+- Thunder Client
+  - Docs: <https://github.com/rangav/thunder-client-support#usage>
+  - Similar to Postman or Insomnia
+  - We will use Thunder Client more as we move into using other HTTP methods.
+  - Click "New Request" to get started
+    - Paste the base URL into GET request bar.
+    - Fill in your Query Parameters with your key and params.
+    - Hit "Send" and view the response object in the Response Tab.
+    - Inspect the "shape" of the data and see if it conforms to your needs.
+
+- What changed from the previous class?
+  - We will be refactoring our data fetchers from simply require() on a static `.json` file into pulling data from a live API with axios, and having to wade through a promise to do so.
+    - Don't forget about `async` and `await`!
+    - Read more about Promises here:
+      - <https://www.w3schools.com/js/js_promise.asp>
+      - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise>
+  - We will truly be feeding the city explorer front end live data.
+  - This is an ongoing requirement for the week.
+  - Not a lot of code movement (really a single change to the fetching functions).
+- Extra practice with the Movies API!
+  - We are doing the exact same thing with Movies that we accomplished with Weather.
+  - You can even model your Movies code from your Weather code.
+
+- Deploy to Heroku
+  - Just like Netlify, you will deploy your server code via GitHub.
+  - Don't forget to add your enviroment variables to Heroku!
+    - You do NOT need to add your PORT variable because Heroku will insert their own server port in order to host your application.
+    - Your PORT variable MUST be named `PORT` in your server.js code because that is what Heroku looks for when serving your application.
+  - Follow the Trello cards VERY CAREFULLY for a successful deploy!
+
 - Introducing Regular Expressions 101
   - repl.it Demo: <https://replit.com/@HexxKing1/301n25-Code-Challenge-Regex#index.js>
   - What is Regex?
