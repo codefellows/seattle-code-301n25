@@ -13,6 +13,7 @@
     - Resource: <https://www.freecodecamp.org/news/modular-programming-nodejs-npm-modules>
 
 - What is a Promise?
+  - Repl.it Demo: <https://replit.com/@HexxKing1/301n25-Promises#index.js>
   - The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
     - Callbacks added with `.then()` will never be invoked before the completion of the current run of the JavaScript event loop.
     - These callbacks will be invoked even if they were added after the success or failure of the asynchronous operation that the promise represents.
