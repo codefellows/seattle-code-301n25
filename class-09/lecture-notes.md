@@ -1,6 +1,7 @@
 # Class 08 Lecture Notes
 
 - Refactoring
+  - Repl.it Demo: <https://replit.com/@HexxKing1/301n25-Refactoring#index.js>
   - Refactoring is the process of restructuring code, while not changing its original functionality. The goal of refactoring is to improve internal structure by making small changes without altering the code's behavior.
 
 - Functional Programming
