@@ -1,5 +1,8 @@
 # Class 13 Lecture Notes
 
+- String Manipulation Shred Talk
+  - Repl.it Demo: <https://replit.com/@HexxKing1/301n25-Code-Challenge-String-Manipulation#index.js>
+
 - Feedback Overview
   - "Like how we're doing code review. Wish people would ask more questions but we have a shy bunch."
   - "Well this is 301 and I get the concept of doing more of the research which will be the standard in the field, but after talking with a few classmates I'm concerned that the general consensus is a feeling of being overwhelmed.  just concerned because a lot of them won't speak up and say how they feel."
@@ -12,5 +15,12 @@
   - "It has been challenging trying to keep up with the new concepts"
   - "The load of work can be overwhelming with the labs"
 
-- String Manipulation Shred Talk
-  - Repl.it Demo: <https://replit.com/@HexxKing1/301n25-Code-Challenge-String-Manipulation#index.js>
+- Exam Preview
+  - What to expect:
+    - Students will be given starter code that will have minor bugs in it. They will need to fix the bugs and then add some features onto the code. There will be tests that they can run so they will know if they have completed the tasks correctly. They will need to deploy both their front-end and back-end.
+  - How long do you have to complete the exam?
+    - 4 hours
+  - What resources can you use?
+    - Anything expect other people.
+  - What if you fail exam?
+    - There will be a retake on the Saturday after Final Presentations.
