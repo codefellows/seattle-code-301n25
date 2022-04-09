@@ -16,11 +16,19 @@
   - "The load of work can be overwhelming with the labs"
 
 - Exam Preview
-  - What to expect:
-    - Students will be given starter code that will have minor bugs in it. They will need to fix the bugs and then add some features onto the code. There will be tests that they can run so they will know if they have completed the tasks correctly. They will need to deploy both their front-end and back-end.
-  - How long do you have to complete the exam?
-    - 4 hours
-  - What resources can you use?
-    - Anything expect other people.
-  - What if you fail exam?
-    - There will be a retake on the Saturday after Final Presentations.
+  - Exam will take place on Saturday, April 16th.
+  - I will be giving a review lecture on Saturday morning before the exam.
+  - Students will be given starter code that will have minor bugs in it. You will need to fix the bugs and then add some features onto the code.
+  - There will be tests that you can run so you will know if you have completed the tasks correctly.
+  - You will need to deploy both your front-end and back-end.
+  - You will have 4 hours to complete the exam.
+  - You must be present in Remo, sitting alone at a table while taking the exam.
+  - You may use any resource except for other people.
+    - If you are stuck on a gituation, ask the instructor for assistance.
+    - TAs may not help you complete the exam.
+  - There will be an option for one retake if you happen to fail the exam the first try.
+
+- UPDATE
+  - If you want to update a resource, what information do you need?
+  - What are the steps needed to make an update happen in the frontend?
+  - What are the steps needed to make an update happen in the backend?
