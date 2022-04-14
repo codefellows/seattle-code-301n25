@@ -26,6 +26,9 @@ class Content extends React.Component {
       }
 
       const booksResponse = await axios(config);
+
+      console.log("Books from DB: ", booksResponse.data);
+      
       this.setState({ books: booksResponse.data });
     }
   }
