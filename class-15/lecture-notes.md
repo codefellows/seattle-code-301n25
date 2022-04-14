@@ -1,5 +1,7 @@
 # Class 15 Lecture Notes
 
+- LAB 15 IS DUE SATURDAY MORNING BEFORE CLASS STARTS AT 9AM(PST)
+
 - Authentication
   - the process of verifying who someone is
 
@@ -54,3 +56,11 @@
 - Auth0 in the BackEnd
   - Install the dependencies
     - `npm i jsonwebtoken jwks-rsa`
+  - Start by updating your BookModel to include an email
+  - clear your database of all current books
+  - Update your seed.js to include your email adress associated with Google Account
+  - run `node seed.js` in order to repopulate your MongoDB with new books that inlcude the user's email.
+    - if you don't include an email, when you go to "get" your books, an empty array will be returned.
+  - in the server's `.env` file, you will need a variable like this:
+    - `JWKS_URI=https://dev-yb6rt0os.us.auth0.com/.well-known/jwks.json`
+    - replace `dev-yb6rt0os.us.auth0.com` with the value that you find in the Auth0 Dashboard under the Domain label.
